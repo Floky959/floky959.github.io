@@ -205,3 +205,13 @@
 .indicator:hover {
     background: rgba(255, 255, 255, 0.8);
 }
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+}
+
+.animate-show {
+  opacity: 1;
+  transform: translateY(0);
+}
