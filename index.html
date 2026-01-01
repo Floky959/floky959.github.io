@@ -588,7 +588,7 @@
             <!-- Project 2 - TIC-DASH -->
             <div class="project-card bg-gray-900 rounded-2xl overflow-hidden shadow-xl cursor-pointer" onclick="openModal('ticdashboard')">
                 <div class="relative overflow-hidden group">
-                    <img src="src/assets/ticdashboard.png" alt="Golden Home" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                    <img src="src/assets/ticdashboard.png" alt="ticdashboard" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div class="absolute bottom-4 left-4 right-4 text-white">
                             <h3 class="text-xl font-bold mb-2">TIC Dashboard</h3>
@@ -810,16 +810,16 @@
             <div class="relative h-64 md:h-80 overflow-hidden rounded-t-2xl">
                 <div class="carousel-container" id="ticdashboard-carousel">
                     <div class="carousel-slide active">
-                        <img src="src/assets/ticdash1.png" alt="Golden Home" class="w-full h-full object-cover">
+                        <img src="src/assets/ticdash1.png" alt="ticdashboard" class="w-full h-full object-cover">
                     </div>
                     <div class="carousel-slide">
-                        <img src="src/assets/ticdash2.png" alt="Golden Home" class="w-full h-full object-cover">
+                        <img src="src/assets/ticdash2.png" alt="ticdashboard" class="w-full h-full object-cover">
                     </div>
                     <div class="carousel-slide">
-                        <img src="src/assets/ticdash3.png" alt="Golden Home" class="w-full h-full object-cover">
+                        <img src="src/assets/ticdash3.png" alt="ticdashboard" class="w-full h-full object-cover">
                     </div>
                     <div class="carousel-slide">
-                        <img src="src/assets/ticdash4.png" alt="Golden Home" class="w-full h-full object-cover">
+                        <img src="src/assets/ticdash4.png" alt="ticdashboard" class="w-full h-full object-cover">
                     </div>
                 </div>
                 
@@ -1549,7 +1549,7 @@
         // Preload carousel images for better performance
         const preloadImages = [
             'src/assets/artisetscreen1.png', 'src/assets/artisetscreen2.png', 'src/assets/artisetscreen3.png', 'src/assets/artisetscreen4.png',
-            'src/assets/goldenhome1.png', 'src/assets/goldenhome2.png', 'src/assets/goldenhome3.png', 'src/assets/goldenhome4.png',
+            'src/assets/ticdash1.png', 'src/assets/ticdash2.png', 'src/assets/ticdash3.png', 'src/assets/ticdash4.png',
             'src/assets/mawaqit1.png', 'src/assets/mawaqit2.png', 'src/assets/mawaqit3.png', 'src/assets/mawaqit4.png',
             'src/assets/fitflex1.png', 'src/assets/fitflex2.png', 'src/assets/fitflex3.png', 'src/assets/fitflex4.png'
         ];
@@ -1594,7 +1594,7 @@
 
     // Initialize touch support for all carousels
     document.addEventListener('DOMContentLoaded', function() {
-        const carouselIds = ['artiset-carousel', 'goldenhome-carousel', 'mawaqit-carousel', 'weather-carousel', 'fitflex-carousel', 'movies-carousel'];
+        const carouselIds = ['artiset-carousel', 'ticdashboard-carousel', 'mawaqit-carousel', 'weather-carousel', 'fitflex-carousel', 'movies-carousel'];
         carouselIds.forEach(id => {
             handleTouch(id);
         });
